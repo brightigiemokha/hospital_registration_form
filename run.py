@@ -35,8 +35,8 @@ self.Loginframe3 = Frame(self.frame,width=1000,height=200,bd=20,relief='ridge')
 self.Loginframe3.grid(row=3, column=0,pady=2)
 
 self.btnLogin = Button(self.Loginframe2, text="Login", width=20,font=('arial', 20,'bold')
-                                command=self.Registration_window)
-self.btnLogin.grid(row =0,column=0)
+                                command =self.Registration_window)
+self.btnLogin.grid(row =0,column =0)
 
 self.btnReset = Button(self.Loginframe2, text="Reset", width=20,font=('arial', 20,'bold')
                                 command =self.Hospital_window)
